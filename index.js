@@ -5,7 +5,7 @@ const PORT = 4000;
 // Middleware to parse form data
 app.use(express.urlencoded({ extended: true }));
 
-// Home Page
+
 app.get('/', (req, res) => {
     res.send(`
     <!DOCTYPE html>
