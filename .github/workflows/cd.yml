@@ -21,4 +21,4 @@ jobs:
             docker pull surajprakash1/gitaction-app:latest
             docker stop node-app1 || true
             docker rm node-app1 || true
-            docker run -d -p 4000:3000 --name node-app1 surajprakash1/gitaction-app:latest
+            docker run -d -p 5000:4000 --name node-app1 surajprakash1/gitaction-app:latest
